@@ -1,0 +1,14 @@
+.contact-email {
+  width: 466px;
+  margin: 0 auto;
+}
+
+.contact-email__input {
+  padding-right: 120px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-btn {
+  padding: 10px;
+}

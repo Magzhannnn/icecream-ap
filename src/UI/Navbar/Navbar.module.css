@@ -1,0 +1,48 @@
+.navbar,
+.navItems {
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbarIcon {
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../../public/img/polar.png");
+}
+
+.navItem__home,
+.navItem__info,
+.navItem__products,
+.navItem__contact,
+.navItem__logout,
+.navItem__login,
+.navItem__registration {
+  margin-right: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: rgba(21, 1, 1, 1);
+  text-decoration: none;
+}
+
+.navItem__login,
+.navItem__registration {
+  font-size: 18px;
+}
+
+.navItem__logout {
+  margin-right: 0;
+}
+
+.active {
+  font-weight: 700;
+  color: darkblue;
+}
+
+.navItems:hover {
+  cursor: pointer;
+}

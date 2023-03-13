@@ -1,0 +1,25 @@
+.btn,
+.create {
+  padding: 10px 105px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.btn:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.create {
+  padding: 10px 97px;
+}
+
+.login {
+  padding: 10px 154px;
+}
+
+.link {
+  color: #000;
+}
+

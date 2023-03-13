@@ -1,0 +1,53 @@
+.contact-social {
+  display: flex;
+  align-items: center;
+  width: 498px;
+  margin: 20px auto;
+}
+
+.contact-social__whatsapp,
+.contact-social__facebook,
+.contact-social__instagram,
+.contact-social__telegram,
+.contact-social__tiktok,
+.contact-social__youtube {
+  background-image: url("../../../../public/img/whatsapp.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+  width: 60px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.contact-social__facebook {
+  background-image: url("../../../../public/img/facebook.png");
+  height: 38px;
+  margin-right: 0px;
+}
+
+.contact-social__instagram {
+  background-image: url("../../../../public/img/instagram.jpg");
+  height: 51px;
+  width: 93px;
+  margin-right: 15px;
+}
+
+.contact-social__telegram {
+  background-image: url("../../../../public/img/telegram.png");
+  height: 37px;
+  margin-right: 25px;
+}
+
+.contact-social__tiktok {
+  background-image: url("../../../../public/img/tik-tok.png");
+  height: 45px;
+  margin-right: 20px;
+}
+
+.contact-social__youtube {
+  background-image: url("../../../../public/img/youtube.png");
+  height: 47px;
+  width: 45px;
+  margin-bottom: 0;
+}

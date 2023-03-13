@@ -1,0 +1,47 @@
+.seeDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+  top: 90px;
+  right: 250px;
+  left: 250px;
+  z-index: 999;
+  background-color: #fff;
+  padding: 20px 256px;
+  padding-bottom: 90px;
+}
+
+.seeDetails__left,
+.seeDetails__right {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 107px;
+  background-color: darkblue;
+}
+
+.seeDetails__left {
+  left: 0;
+}
+
+.seeDetails__center {
+  font-size: 21px;
+  width: 500px;
+}
+
+.seeDetails__right {
+  right: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 126%;
+  width: 100%;
+}

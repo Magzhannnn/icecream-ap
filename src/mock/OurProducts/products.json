@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "BrownBread",
+        "newPrice": 19.55,
+        "oldPrice": 23.45,
+        "count": 0
+    },
+    {
+        "id": 2,
+        "title": "Cayenne chocolate",
+        "newPrice": 24.75,
+        "oldPrice": 32.4,
+        "count": 0
+    },
+    {
+        "id": 3,
+        "title": "Sweet corn",
+        "newPrice": 23.5,
+        "oldPrice": 29.5,
+        "count": 0
+    }
+]

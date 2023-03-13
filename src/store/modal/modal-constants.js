@@ -1,0 +1,4 @@
+export const ADD_BUY_MODAL = "ADD_BUY_MODAL";
+export const DETAILS_MODAL = "DETAILS_MODAL";
+export const PRODUCTS_MODAL = "PRODUCTS_MODAL";
+export const REMOVE_MODAL = "REMOVE_MODAL";

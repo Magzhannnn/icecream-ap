@@ -1,0 +1,21 @@
+.contact-phone {
+  display: flex;
+  align-items: center;
+  width: 493px;
+  margin: 26px auto;
+}
+
+.contact-phone__number,
+.contact-map {
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.contact-phone__icon {
+  background-image: url("../../../../public/img/phone.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30px;
+  width: 30px;
+}

@@ -1,0 +1,51 @@
+.info-item {
+  font-family: "Hind Madurai";
+  text-align: center;
+  padding: 27px 0;
+  width: 250px;
+}
+
+.info-item__img1,
+.info-item__img2,
+.info-item__img3,
+.info-item__img4 {
+  background-image: url("../../../../public/img/infoImg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 57px;
+  width: 66px;
+  margin: 0 auto;
+}
+.info-item__img2 {
+  background-image: url("../../../../public/img/infoImg2.png");
+  height: 74px;
+  width: 55px;
+}
+.info-item__img3 {
+  background-image: url("../../../../public/img/infoImg3.png");
+
+  height: 54px;
+  width: 54px;
+}
+.info-item__img4 {
+  background-image: url("../../../../public/img/infoImg4.png");
+
+  height: 54px;
+  width: 54px;
+}
+
+.info-item__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 18px;
+}
+
+.info-item__text {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  opacity: 0.6;
+}

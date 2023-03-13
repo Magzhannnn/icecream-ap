@@ -1,0 +1,7 @@
+.loginWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+  gap: 100px;
+}

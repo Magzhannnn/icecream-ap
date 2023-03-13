@@ -1,0 +1,123 @@
+.image_icecream1,
+.image_icecream2,
+.image_icecream3,
+.image_icecream4,
+.image_icecream5,
+.image_icecream6,
+.image_icecream7,
+.image_icecream8,
+.image_icecream9,
+.image_icecream10,
+.image_icecream11,
+.image_icecream12,
+.image_icecream13 {
+  background-image: url("../../../../public/img/icecream1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 400px;
+  border-radius: 60px;
+  position: relative;
+  display: none;
+}
+
+.image_icecream2 {
+  background-image: url("../../../../public/img/icecream2.jpg");
+}
+
+.image_icecream3 {
+  background-image: url("../../../../public/img/icecream3.jpg");
+}
+
+.image_icecream4 {
+  background-image: url("../../../../public/img/icecream4.jpg");
+}
+
+.image_icecream5 {
+  background-image: url("../../../../public/img/icecream5.jpg");
+}
+
+.image_icecream6 {
+  background-image: url("../../../../public/img/icecream6.jpg");
+}
+
+.image_icecream7 {
+  background-image: url("../../../../public/img/icecream7.jpg");
+}
+
+.image_icecream8 {
+  background-image: url("../../../../public/img/icecream8.jpg");
+}
+
+.image_icecream9 {
+  background-image: url("../../../../public/img/icecream9.jpg");
+}
+
+.image_icecream10 {
+  background-image: url("../../../../public/img/icecream10.jpg");
+}
+
+.image_icecream11 {
+  background-image: url("../../../../public/img/icecream11.jpg");
+}
+
+.image_icecream12 {
+  background-image: url("../../../../public/img/icecream12.jpg");
+}
+
+.image_icecream13 {
+  background-image: url("../../../../public/img/icecream13.jpg");
+}
+
+.activateSlider {
+  display: block;
+}
+
+.left,
+.right {
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+  top: 175px;
+  height: 100vh;
+  width: 57px;
+  font-size: 55px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.left {
+  left: 20px;
+}
+
+.right {
+  right: -7px;
+}
+
+.left:hover,
+.right:hover {
+  cursor: pointer;
+}
+
+.dotLst {
+  position: absolute;
+  margin: 415px 185px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+.dote {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.dote.active1,
+.dote.active2,
+.dote.active3,
+.dote.active4 {
+  background-color: #000;
+}

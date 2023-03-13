@@ -1,0 +1,1 @@
+export const selectAllIceCreams = state => state.iceCreams;

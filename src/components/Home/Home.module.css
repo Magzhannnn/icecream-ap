@@ -1,0 +1,53 @@
+.home {
+  display: flex;
+  align-items: center;
+  background-color: skyblue;
+  padding-top: 135px;
+  padding-bottom: 154px;
+  color: #0f0101;
+}
+
+/* .home-left {
+} */
+
+.home-left__title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+  margin-bottom: 10px;
+}
+
+.home-left__subtitle,
+.home-left__subtitle span {
+  font-family: "Fredoka One", cursive;
+  font-weight: 400;
+  font-size: 57.33px;
+  line-height: 120.5%;
+  opacity: 0.9;
+  width: 665px;
+}
+
+.home-left__subtitle span {
+  color: darkblue;
+}
+
+.home-left__text {
+  font-family: "Hind Madurai", sans-serif;
+  width: 523px;
+  margin: 35px 0 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  opacity: 0.6;
+}
+
+.home-right__img1 {
+  position: absolute;
+  top: 89px;
+  right: 0;
+  background-image: url("../../../public/img/homeIceCream.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 567px;
+  width: 567px;
+}

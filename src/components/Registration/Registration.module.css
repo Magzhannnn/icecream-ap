@@ -1,0 +1,15 @@
+.regWrap {
+  width: 360px;
+  margin: 70px auto;
+}
+
+.titleReg {
+  font-size: 31px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0;
+}
+
+.reg {
+  width: 276px;
+}

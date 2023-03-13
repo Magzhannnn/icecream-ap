@@ -1,0 +1,44 @@
+.navbar-btn,
+.add_icecream {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22.08px;
+  color: #fff;
+  text-decoration: none;
+
+  background-color: darkblue;
+  padding: 14px 50px;
+  border-radius: 5px;
+  width: 165px;
+  height: 50px;
+}
+
+.navbar-btn:hover,
+.add_icecream:hover {
+  background-color: rgb(56, 56, 209);
+}
+
+.add_icecream {
+  position: relative;
+  top: -27px;
+  right: -35px;
+  padding: 5px 10px;
+}
+
+.remove_icecream {
+  position: relative;
+  top: -53px;
+  right: -72px;
+  padding: 5px 12px;
+}
+
+.buyIceCream {
+  position: relative;
+  top: 30px;
+}
+
+.our-product {
+  position: relative;
+  top: 25px;
+}
