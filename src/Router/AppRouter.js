@@ -16,7 +16,7 @@ const AppRouter = () => {
       {(isLoginVal === 0 || isLoginVal === -1) && (
         <>
           <Route path="/login" element={<LoginMain />} />
-          <Route path="/registration" element={<Registration />} />
+          <Route path="/reg" element={<Registration />} />
           <Route path="/*" element={<Navigate to="/login" />} />
         </>
       )}
